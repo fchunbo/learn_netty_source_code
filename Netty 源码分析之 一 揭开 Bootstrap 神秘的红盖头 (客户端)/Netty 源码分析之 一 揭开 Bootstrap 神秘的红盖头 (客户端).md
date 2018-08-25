@@ -48,7 +48,7 @@ try {
 ### NioSocketChannel 的初始化过程
 在 Netty 中, Channel 是一个 Socket 的抽象, 它为用户提供了关于 Socket 状态(是否是连接还是断开) 以及对 Socket 的读写等操作. 每当 Netty 建立了一个连接后, 都会有一个对应的 Channel 实例.
 NioSocketChannel 的类层次结构如下:
-![Alt text](/NioSocketChannel 类层次结构.png)
+![Alt text](http://NioSocketChannel 类层次结构.png)
 
 
 这一小节我们着重分析一下 Channel 的初始化过程.
